@@ -4,7 +4,7 @@
 
 ## 🔷 Conceito Geral
 
-[imagem1](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/1.png)
+![imagem1](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/1.png)
 
 No Azure, o **VNet Peering** pode ser comparado a uma infraestrutura *on-premises* com **DMZ (Zona Desmilitarizada)**, onde serviços expostos (como servidores web, firewalls e proxies) são isolados por segurança.
 
@@ -83,7 +83,7 @@ Se todas as VNets estiverem emparelhadas entre si, um invasor pode se mover late
 ---
 
 ## 🔁 Trânsito de Gateway (Gateway Transit) com Hub-and-Spoke
-[imagem2](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/2.png)
+![imagem2](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/2.png)
 
 ### 🏗️ 1. VNet Hub
 
@@ -136,7 +136,7 @@ Permite:
 ---
 
 ## 🔁 Encadeamento de Serviços (Service Chaining)
-[imagem3](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/3.png)
+![imagem3](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/3.png)
 
 Permite redirecionar tráfego de uma VNet para:
 
@@ -155,7 +155,7 @@ Permite redirecionar tráfego de uma VNet para:
 ## 🔸 Rotas no Azure
 
 ### 📦 Rotas de Sistema (System Routes)
-[imagem4](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/4.png)
+![imagem4](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/4.png)
 
 - Criadas automaticamente pelo Azure.
 - Garantem comunicação entre:
@@ -180,7 +180,7 @@ Permite redirecionar tráfego de uma VNet para:
 
 ## 🔌 Pontos de Extremidade
 
-[imagem5](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/5.png)
+![imagem5](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/5.png)
 
 ### 🔸 Service Endpoints
 
@@ -196,7 +196,7 @@ Permite redirecionar tráfego de uma VNet para:
 ---
 
 ### 🔒 Azure Private Link
-[imagem6](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/6.png)
+![imagem6](https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/6.png)
 
 - Fornece acesso **privado via IP da VNet**.
 - Mais seguro do que Service Endpoints.
