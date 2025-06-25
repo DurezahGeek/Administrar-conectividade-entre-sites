@@ -4,6 +4,8 @@
 
 ## 🔷 Conceito Geral
 
+https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/1.png
+
 No Azure, o **VNet Peering** pode ser comparado a uma infraestrutura *on-premises* com **DMZ (Zona Desmilitarizada)**, onde serviços expostos (como servidores web, firewalls e proxies) são isolados por segurança.
 
 ---
@@ -81,6 +83,7 @@ Se todas as VNets estiverem emparelhadas entre si, um invasor pode se mover late
 ---
 
 ## 🔁 Trânsito de Gateway (Gateway Transit) com Hub-and-Spoke
+https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/2.png
 
 ### 🏗️ 1. VNet Hub
 
@@ -133,6 +136,7 @@ Permite:
 ---
 
 ## 🔁 Encadeamento de Serviços (Service Chaining)
+https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/3.png
 
 Permite redirecionar tráfego de uma VNet para:
 
@@ -151,6 +155,7 @@ Permite redirecionar tráfego de uma VNet para:
 ## 🔸 Rotas no Azure
 
 ### 📦 Rotas de Sistema (System Routes)
+https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/4.png
 
 - Criadas automaticamente pelo Azure.
 - Garantem comunicação entre:
@@ -175,6 +180,8 @@ Permite redirecionar tráfego de uma VNet para:
 
 ## 🔌 Pontos de Extremidade
 
+https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/5.png
+
 ### 🔸 Service Endpoints
 
 - Conecta VNets com serviços **PaaS** de forma privada.
@@ -189,6 +196,7 @@ Permite redirecionar tráfego de uma VNet para:
 ---
 
 ### 🔒 Azure Private Link
+https://github.com/DurezahGeek/Administrar-conectividade-entre-sites/blob/main/srcACS/6.png
 
 - Fornece acesso **privado via IP da VNet**.
 - Mais seguro do que Service Endpoints.
