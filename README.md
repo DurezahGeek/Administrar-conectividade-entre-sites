@@ -213,7 +213,7 @@ Permite redirecionar tráfego de uma VNet para:
 
 ## 🔁 Peering de VNets e Roteamento
 
-###🔸 Para habilitar comunicação entre VNets:
+### 🔸 Para habilitar comunicação entre VNets:
 Criar o Peering entre as redes.
 
 - Marcar:
